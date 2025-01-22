@@ -2,6 +2,6 @@ import java.util.*;
 public class First{
     public static void main(String[] args)
     {
-        System.out.print("Hello Tringapps");
+        System.out.print("Hello world , welcome user");
     }
 }
