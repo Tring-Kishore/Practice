@@ -1,0 +1,22 @@
+-> git init (to initilize the git)
+-> git clone <url> (to clone the github files)
+-> git config --global user.name "username"
+-> git config --global user.email emailaddress.com
+-> git add <filename> (to add a file to staging)
+-> git add . (to add all file to the staging)
+-> git commit -m "message about updates"
+-> git push (to push the local repo to remote repo)
+-> git pull (to pull the cloud repo to local repo)
+-> git status (to see the status of current repo)
+-> git diff (to see the current repo file changes after the commit)
+-> git branch (to see the local branches and current branch)
+-> git branch -a (to see all the local and cloud branches)
+-> git checkout -b "branchname" (to create a new branch)
+-> git checkout branchname (to change the branch to anotherbranch)
+
+Note:
+        If we change the branch we need to push and pull with origin
+-> git push origin branchname
+-> git pull origin branchname
+-> git branch -M "alternatename" (to change the branch name)
+-> git branch -D <branchname> (to delete the branch from the local repo)
